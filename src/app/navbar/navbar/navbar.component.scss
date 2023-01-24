@@ -1,0 +1,20 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(188, 188, 188);
+  padding: 0 50px;
+  .logo{
+    font-size: 24px;
+  }
+
+  ul{
+    display: flex;
+    gap: 20px;
+    a{
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
